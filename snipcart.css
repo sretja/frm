@@ -1,0 +1,77 @@
+@font-face {
+    font-family: "Avenir";
+    src: url("https://assets.website-files.com/60350ba1b4e8c5086271743d/60367515df577b5ffee708a2_Avenir%20Regular.woff2")
+      format("woff2");
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap;
+  }
+  @font-face {
+    font-family: "Avenir";
+    src: url("https://assets.website-files.com/60350ba1b4e8c5086271743d/60367515fe741fc7aa8f6a81_Avenir%20Medium.woff2")
+      format("woff2");
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+  }
+  @font-face {
+    font-family: "Avenir";
+    src: url("https://assets.website-files.com/60350ba1b4e8c5086271743d/60368b30585da26cb3df93e4_Avenir%20Black.woff2")
+      format("woff2");
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap;
+  }
+
+.snipcart {
+    font-family: Open Sans,sans-serif;
+    font-size: 14px;
+    font-weight: 300;
+    color: #ffffff;
+}
+.snipcart-modal {
+    position: relative;
+    margin: 0 auto;
+    max-width: 100%;
+    background-color: #171717;
+    z-index: 1000;
+}
+.snipcart-cart__content {
+    margin: 0 auto;
+    background-color: #171717;
+}
+.snipcart-modal__close {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: Open Sans,sans-serif;
+    color: #ffffff;
+    cursor: pointer;
+}
+.snipcart-item-line {
+    background-color: #000000;
+    box-shadow: 0 8px 24px rgba(231,235,237,.6);
+}
+.snipcart-form__label {
+    color: #ffffff;
+    margin-bottom: 8px;
+    display: inline-block;
+    white-space: nowrap;
+}
+.snipcart-form__select {
+    display: flex;
+    align-items: center;
+    color: #ffffff;
+    line-height: normal;
+    height: 52px;
+    border: 1px solid #000000;
+    width: 100%;
+    padding: 16px;
+    padding-right: 50px;
+    background: url(/themes/v3.0.31/default/assets/icons/select-cursor.svg) no-repeat right 22px center;
+    background-color: #171717;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    border-radius: unset;
+    }
